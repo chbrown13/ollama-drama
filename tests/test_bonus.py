@@ -1,8 +1,8 @@
 import pytest
 import requests
 
-user_name = "YOUR_OLLAMA_USERNAME"
-model_name = "MODEL_NAME"
+user_name = "dcbrown"
+model_name = "mario-model"
 
 # Test that the custom model exists on Ollama website
 def test_fetch_ollama_page():
